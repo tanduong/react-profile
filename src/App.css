@@ -1,0 +1,71 @@
+.App {
+  text-align: center;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  font-family: "Open Sans", sans-serif;
+}
+
+.App main {
+  flex: 1;
+}
+
+img {
+  position: absolute;
+  width: auto;
+  height: 550px;
+  margin-top: -150px;
+  padding: auto 0;
+  z-index: -1;
+}
+
+.navbar {
+  height: 60pt;
+  padding: 40pt 0 10pt 0;
+}
+.navbar div {
+  display: inline;
+  margin: 20pt;
+  font-size: 15pt;
+  font-weight: 600;
+  color: white;
+  padding-bottom: 5pt;
+}
+
+.navbar div:hover {
+  cursor: pointer;
+}
+
+.navbar div:hover,
+.currTab {
+  border-bottom: 1.5pt solid white;
+}
+
+.name {
+  font-size: 40pt;
+  font-weight: bold;
+  margin-top: 200px;
+  margin-bottom: 0px;
+  line-height: 100%;
+  color: rgba(255, 255, 255, 0.7);
+}
+
+.desc {
+  font-size: 15pt;
+  font-weight: 400;
+  margin-top: 0px;
+  color: white;
+}
+
+.title {
+  font-size: 25pt;
+  font-weight: 500;
+  margin-bottom: 20pt;
+}
+
+.content {
+  width: 40%;
+  min-width: 400px;
+  margin: 0 auto;
+  text-align: left;
+}
