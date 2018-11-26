@@ -4,19 +4,36 @@
   display: flex;
   flex-direction: column;
   font-family: "Open Sans", sans-serif;
+  overflow-x: hidden;
 }
 
 .App main {
   flex: 1;
 }
 
-img {
+.bg {
   position: absolute;
-  width: auto;
-  height: 550px;
-  margin-top: -150px;
-  padding: auto 0;
+  top: -150pt;
+  left: 50%;
+  transform: translate(-50%, 0);
+  width: 100%;
+  height: 450pt;
+  overflow: hidden;
   z-index: -1;
+}
+
+.portrait {
+  height: 140pt;
+  width: 140pt;
+  border-radius: 50%;
+  position: absolute;
+  top: 200pt;
+  left: 7%;
+}
+@media only screen and (max-width: 1200px) {
+  .portrait {
+    top: 80pt;
+  }
 }
 
 .navbar {
