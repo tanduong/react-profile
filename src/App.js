@@ -25,8 +25,6 @@ class App extends Component {
         />
         <Portrait />
         <Body title={this.state.title} />
-
-        <Footer />
       </div>
     );
   }

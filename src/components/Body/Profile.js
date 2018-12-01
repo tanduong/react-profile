@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+import { ProfileCard } from "./ProfileCard";
 
 let data = [
   {
@@ -22,18 +23,6 @@ let data = [
       "Aspiring to gain relevant experience and skills through technical entry-level jobs and internships"
   }
 ];
-class ProfileCard extends Component {
-  render() {
-    return (
-      <div className="profile-card">
-        <div className="profile-icon">
-          <img src={this.props.img} alt="" />
-        </div>
-        <div className="profile-text">{this.props.text}</div>
-      </div>
-    );
-  }
-}
 export class Profile extends Component {
   render() {
     return (
