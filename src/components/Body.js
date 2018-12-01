@@ -4,7 +4,7 @@ export class Body extends Component {
   render() {
     let content = {
       Profile:
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent a augue ac sapien condimentum dictum sed vel libero. Nulla eu mauris finibus, fringilla enim nec, auctor massa. Fusce quis egestas nisl. Cras tortor sem, mattis sed molestie vel, malesuada non ipsum. Nam pretium porta sem ut tempus. Donec vel nisi leo. Mauris eget diam vel est luctus euismod. Donec a sapien a enim sollicitudin volutpat. Donec tempus enim et lectus vulputate, vel auctor tellus cursus. Vestibulum egestas varius nunc a luctus. Fusce feugiat, sapien vitae suscipit commodo, mauris nisl auctor nisl, et venenatis dui ligula ut nisi.",
+        "Final-year undergraduate in Computer Engineering with keen interests in software development and web development. Possess strong problem solving and analytical skills with great attention to details. Organized, self-motivated individual, who can work well under pressure, both independently and as a team player. Aspiring to gain relevant experience and skills through technical entry-level jobs and internships.",
       Education:
         "Cras consequat nulla non mauris faucibus luctus. In massa nisl, suscipit quis ullamcorper id, egestas nec turpis. Proin iaculis aliquet felis, et tristique justo tempus vel. Etiam sit amet neque est. Nunc sit amet dolor eget ex facilisis scelerisque. Nulla at lorem purus. Fusce dapibus quam eget urna viverra, a ullamcorper enim vestibulum. Fusce venenatis viverra nunc, at mollis mi aliquet ut. Sed posuere tellus sit amet arcu dictum, sit amet tincidunt lectus rutrum.",
       Skills:

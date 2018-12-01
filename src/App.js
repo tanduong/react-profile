@@ -1,17 +1,10 @@
 import React, { Component } from "react";
 import "./App.css";
-import { Intro } from "./Intro";
-import { NavBar } from "./NavBar";
-import { Body } from "./Body";
-import { Footer } from "./Footer";
-import background from "./background2.jpg";
-import portrait from "./portrait.jpg";
+import { Body } from "./components/Body";
+import { Footer } from "./components/Footer";
+import { Header } from "./components/Header/Header";
+import { Portrait } from "./components/Portrait";
 
-class Portrait extends Component {
-  render() {
-    return <img className="portrait" src={portrait} alt="" />;
-  }
-}
 class App extends Component {
   constructor(props) {
     super(props);
@@ -26,15 +19,11 @@ class App extends Component {
   render() {
     return (
       <div className="App">
-        <div className="bg">
-          <img src={background} alt="background" />
-        </div>
-        <Intro />
-        <Portrait />
-        <NavBar
+        <Header
           onClick={this.changeContent.bind(this)}
           current={this.state.title}
         />
+        <Portrait />
         <Body title={this.state.title} />
 
         <Footer />
