@@ -99,8 +99,26 @@ main {
 }
 
 .content {
-  width: 40%;
+  width: 60%;
   min-width: 400px;
   margin: 0 auto;
-  text-align: left;
+  text-align: center;
+}
+
+.profile-card {
+  display: inline-block;
+  width: 40%;
+  height: 250pt;
+  margin: 20pt;
+}
+.profile-icon {
+  text-align: center;
+  height: 60%;
+}
+.profile-icon img {
+  height: 100%;
+}
+.profile-text {
+  font-size: 20px;
+  margin-top: 10pt;
 }
