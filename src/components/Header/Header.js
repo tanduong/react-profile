@@ -6,9 +6,9 @@ export class Header extends Component {
     return (
       <div>
         <div className="bg">
-          <img src="../../img/background2.jpg" alt="background" />
+          <img src={this.props.data.bg} alt="background" />
         </div>
-        <Intro />
+        <Intro name={this.props.data.name} title={this.props.data.title} />
         <NavBar onClick={this.props.onClick} current={this.props.current} />
       </div>
     );

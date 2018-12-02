@@ -4,10 +4,8 @@ export class Intro extends Component {
   render() {
     return (
       <div>
-        <div className="name">Lê Vũ Khánh Toàn</div>
-        <div className="desc">
-          Aspiring Software Engineer | Frontend Developer
-        </div>
+        <div className="name">{this.props.name}</div>
+        <div className="desc">{this.props.title}</div>
       </div>
     );
   }

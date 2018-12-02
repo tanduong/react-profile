@@ -11,16 +11,16 @@ export class Body extends Component {
     // eslint-disable-next-line default-case
     switch (this.props.title) {
       case "Profile":
-        content = <Profile />;
+        content = <Profile data={this.props.data.profile} />;
         break;
       case "Education":
-        content = <Education />;
+        content = <Education data={this.props.data.edu} />;
         break;
       case "Skills":
         content = <Skills />;
         break;
       case "Work Experience":
-        content = <WorkExp />;
+        content = <WorkExp data={this.props.data["work-exp"]} />;
         break;
       case "Projects":
         content = <Projects />;
